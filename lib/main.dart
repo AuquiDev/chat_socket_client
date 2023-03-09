@@ -1,4 +1,4 @@
-import 'package:chat_socket_client/pages/login_page.dart';
+import 'package:chat_socket_client/pages/chat_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:LoginPage()
+      home:ChatPage()
     );
   }
 }
